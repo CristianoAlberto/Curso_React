@@ -4,7 +4,7 @@ import './App.css'
 import FirstComponent from './components/FirstComponents'
 import TemplateExpression from './components/TemplateExpression'
 import MyComponent from './components/MyComponet'
-
+import Events from './components/Events'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +14,7 @@ function App() {
       <FirstComponent/>
       <TemplateExpression/>
       <MyComponent/>
+      <Events/>
     </div>
   )
 }
