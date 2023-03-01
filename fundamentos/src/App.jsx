@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import FirstComponent from './components/FirstComponents'
 import TemplateExpression from './components/TemplateExpression'
+import MyComponent from './components/MyComponet'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +13,7 @@ function App() {
       <h1>Fundamentos do React</h1>
       <FirstComponent/>
       <TemplateExpression/>
+      <MyComponent/>
     </div>
   )
 }
