@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import anime from './assets/imagem2.jpg'
 import Data from './components/Data'
+import ListeRender from './components/ListeRender'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <img src={anime} alt='outra imagem'/>
 
       <Data/>
+      <ListeRender/>
     </div>
   )
 }
