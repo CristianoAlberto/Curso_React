@@ -6,6 +6,7 @@ import Data from './components/Data'
 import ListeRender from './components/ListeRender'
 import CondicionalRender from './components/CondicionalRender'
 import ShowUserName from './components/ShowUserName'
+import CarDetails from './components/CarDetails'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <ListeRender/>
       <CondicionalRender/>
       <ShowUserName name="Chris"/>
+      <CarDetails brand="VW" km={999} color="Branco"/>
     </div>
   )
 }
