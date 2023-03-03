@@ -5,6 +5,7 @@ import anime from './assets/imagem2.jpg'
 import Data from './components/Data'
 import ListeRender from './components/ListeRender'
 import CondicionalRender from './components/CondicionalRender'
+import ShowUserName from './components/ShowUserName'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Data/>
       <ListeRender/>
       <CondicionalRender/>
+      <ShowUserName name="Chris"/>
     </div>
   )
 }
