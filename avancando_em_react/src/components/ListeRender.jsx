@@ -14,7 +14,7 @@ const ListeRender = () => {
         const randomNumber = Math.floor(Math.random() * 5);
 
 
-        setUsers(users.filter(user => user.id !== randomNumber));
+        setUsers((prevUsers) => prevUsers.filter(user => user.id !== randomNumber));
     }
 
     return (
